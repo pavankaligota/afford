@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    line-height: 1.2px;
+    color:#666 ;
+}
+.pimg1{
+    background-image: url(images/beautiful.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(images/mount.jpg);
+    min-height: 100%;
+}
+.pimg3{
+    background-image: url(images/tree.jpg);
+    min-height: 100%;
+}
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+.textbg{
+    background-color: rgb(7, 165, 113);
+    padding: 10px;
+
+
+}
+.section{
+    padding: 40px 60px;
+    text-align: center;
+}
+.sectiondark{
+    background-color: white;
+    color: #666;
+}
